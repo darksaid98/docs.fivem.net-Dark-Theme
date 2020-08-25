@@ -1,0 +1,64 @@
+@-moz-document url-prefix("https://docs.fivem.net/") {
+body {
+    color: rgba(255, 255, 255, .82) !important;
+    background-color: rgb(37,40,55);
+}
+
+a {
+    color: hsl(207, 100%, 73%);
+    font-weight: 600!important;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+
+.text-muted {
+    color: #c4c4c4!important;
+}
+
+
+.td-sidebar {
+    color: rgba(255, 255, 255, .82) !important;
+    background-color: rgb(31,33,46);
+    border-right: 1px solid rgb(27,29,40);
+}
+
+.td-sidebar-nav .td-sidebar-link {
+    color: white;
+}
+
+.popover-body, .popover, .card, .td-sidebar__search {
+    color: rgba(255, 255, 255, .82) !important;
+    background-color: rgb(31,33,46);   
+}
+
+.td-toc {
+    background-color: rgb(31,33,46);
+    border-left: 1px solid rgb(27,29,40);
+}
+
+.bg-dark {
+    background-color: rgb(27,29,40) !important;
+}
+
+.td-content > div > div > div {
+    background-color: rgb(27,29,40);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(31,33,46) !important;
+}
+
+.td-content .highlight {
+    border: 1px solid rgb(31,33,46) !important;
+}
+
+.model, .marker, .blip, .blip.bcolor {
+    background-color: rgb(27,29,40);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(31,33,46) !important;
+}
+}
