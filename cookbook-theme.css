@@ -1,0 +1,88 @@
+@-moz-document domain("cookbook.fivem.net") {
+::selection {
+    background-color: rgba(238, 238, 238, .41);
+    color: rgb(255, 255, 255);
+}
+body {
+    color: rgba(255, 255, 255, .82) !important;
+    background-color: rgb(37,40,55);
+}
+
+:root {
+    --wp-admin-theme-color: rgba(255, 255, 255, .82);
+    --wp-admin-theme-color-darker-10: rgba(255, 255, 255, .82);
+    --wp-admin-theme-color-darker-20: rgba(255, 255, 255, .82);
+}
+
+.site-branding {
+    color: rgba(255, 255, 255, .82);
+}
+
+.enlighter-t-enlighter .enlighter-text {
+    color: #fff;
+}
+.enlighter-t-enlighter .enlighter-k1 {
+    color: #df1d1d;
+    font-weight: 700;
+}
+.enlighter-t-enlighter .enlighter-m0 {
+    color: #7bf445;
+}
+.enlighter-t-enlighter .enlighter-s0 {
+    color: #ffda45d4;
+}
+.enlighter-t-enlighter .enlighter-k0 {
+    color: #df1d1d;
+    font-weight: 700;
+}
+.enlighter-t-enlighter .enlighter-e0 {
+    color: #1e85e1;
+    font-weight: 700;
+}
+.enlighter-t-enlighter .enlighter-k2 {
+    color: #df1d1d;
+    font-weight: 700;
+}
+.enlighter-t-enlighter .enlighter-g1 {
+    color: #a850bf;
+}
+
+a, a:visited, .main-navigation .main-menu > li, .main-navigation ul.main-menu > li > a, .post-navigation .post-title, .entry .entry-meta a:hover, .entry .entry-footer a:hover, .entry .entry-content .more-link:hover, .main-navigation .main-menu > li > a + svg, .comment .comment-metadata > a:hover, .comment .comment-metadata .comment-edit-link:hover, #colophon .site-info a:hover, .widget a, .entry .entry-content .wp-block-button.is-style-outline .wp-block-button__link:not(.has-text-color), .entry .entry-content > .has-primary-color, .entry .entry-content > *[class^="wp-block-"] .has-primary-color, .entry .entry-content > *[class^="wp-block-"].is-style-solid-color blockquote.has-primary-color, .entry .entry-content > *[class^="wp-block-"].is-style-solid-color blockquote.has-primary-color p {
+    color: hsl(207, 100%, 73%);
+}
+
+.blocks-gallery-caption, .wp-block-embed figcaption, .wp-block-image figcaption, .wp-block-code {
+    background-color: rgb(27,29,40);
+    color: #fff;
+    border: 1px solid rgb(31,33,46) !important;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.enlighter-t-enlighter.enlighter-hover.enlighter-linenumbers div.enlighter>div:hover {
+    background-color: rgb(27,29,40);
+    color: #fff;
+}
+
+div.enlighter>div {
+    border: solid 0 rgb(31,33,46);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.enlighter-t-enlighter {
+    color: #fff;
+    background-color: rgb(27,29,40);
+    border: 1px solid rgb(31,33,46) !important;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.enlighter-t-enlighter.enlighter-linenumbers div.enlighter>div::before {
+    border-right: solid 1px #e0e0e0;
+    background-color: transparent;
+}
+}
